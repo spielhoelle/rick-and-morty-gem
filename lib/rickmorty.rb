@@ -1,5 +1,12 @@
-require "rickmorty/version"
+require 'faraday'
+require 'json'
 
 module Rickmorty
-  # Your code goes here...
+  BASE_URL = 'https://rickandmortyapi.com/api'
 end
+
+require "rickmorty/base"
+require "rickmorty/character"
+require "rickmorty/location"
+require "rickmorty/episode"
+
