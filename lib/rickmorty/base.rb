@@ -21,7 +21,7 @@ module Rickmorty
     end
 
     def search(str)
-      (JSON.parse((conn.get "#{class_name}/?search=#{str}").body))["results"]
+      (JSON.parse((conn.get "#{class_name}/?name=#{str}").body))["results"]
     end
 
     private
