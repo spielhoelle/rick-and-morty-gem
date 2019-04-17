@@ -57,7 +57,7 @@ and you get something like this returned:
 
 Episodes: `Rickmorty::Episode.new`
 
-Characters: `Rickmorty::Chracter.new`
+Characters: `Rickmorty::Character.new`
 
 Locations: `Rickmorty::Location.new`
 
